@@ -1,48 +1,104 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 /* Common Style */
 
 
 /* Style for Header */
-.container{
+header {
+    max-width: 83%;
+    margin: 50px auto;
+    margin-bottom: 120px;
+
+}
+
+.container {
     border-radius: 16px;
     /* background-color: red;
     border: 2px solid black; */
     height: 600px;
-    margin: 50px 140px;
+    /* margin: 50px 140px; */
     position: relative;
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
-    background-size: contain;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-size:contain;
     background-repeat: no-repeat;
-}  
+}
 
 .banner-content {
     position: absolute;
     top: 25%;
     width: 100%;
     text-align: center;
-    
+
 }
-.banner-content h4{
+
+.banner-content h4 {
     font-size: 32px;
     font-weight: 400;
-    color: #FFF; 
+    color: #FFF;
     margin-bottom: 16px;
 
 }
 
-.one{
-    max-width: 632px;
+.one {
+    max-width: 48%;
     margin: 5px auto;
-    text-align: center;
+    /* text-align: center; */
 }
-.one h1{
-    font-size: 77px;
+
+.one h1 {
+    font-size: 72px;
     font-weight: 900;
     color: #FFF;
-    line-height: 95px;   
+    line-height: 95px;
+    text-align: center;
 }
 
 /* Style for main  */
+
+.discount {
+    max-width: 50%;
+    margin: 50px auto;
+    /* background-color: rgb(227, 135, 135);
+    border: 2px solid black; */
+    height: 600px;
+    text-align: center;
+
+}
+
+.discount-content .discount-figure {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 48px;
+}
+
+.dicount-info {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #F00;
+    margin-bottom: 16px;
+}
+
+.dicount-info-1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 48px;
+}
+
+.discount-pic img {
+    height: 500px;
+    /* margin: 30px auto; */
+    position: center;
+    fill: lightgray 50%;
+    padding: 30px 0px 120px;
+}
+
+/* Styles for join now */
