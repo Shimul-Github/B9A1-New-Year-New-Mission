@@ -352,58 +352,68 @@ button {
 /* styles for awsome portfolio */
 .awsome-portfolio-section {
     height: 482px;
-    max-width: 82%;
-    margin: 70px auto;
+    max-width: 88%;
+    margin: 50px auto;
+}
+.awsome-portfolio-content{
+    
+    max-width: 95%;
+    margin: 72px auto;
+
 }
 
 .portfolio-heading {
     color: #F00;
-
-    font-family: Inter;
+    margin-bottom: 16px;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
-
     font-weight: 500;
 
 }
 
 .portfolio-title {
     color: #070211;
-
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
-
     font-weight: 900;
-
     text-transform: capitalize;
     margin-bottom: 22px;
 }
 
 .portfolio-title-description {
     color: #07021199;
-
     font-family: Inter;
     font-size: 20px;
-
     font-weight: 400;
     line-height: 32px;
-    max-width: 70%;
+    max-width: 62%;
     margin-bottom: 48px;
 }
 
 .portfolio-parent-container {
-    margin-bottom: 120px;
+    height: 900px;
+    max-width: 95%;
+    margin: 72px auto;
 }
 
 .portfolio-flex-container-1 {
     display: flex;
-    max-height: 475px;
-
-
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.portfolio-flex-container-1 img{
+    width: 400px;
+    height: 400px;
 }
 
 .portfolio-flex-container-2 {
     display: flex;
-    max-height: 475px;
+    gap: 24px;
+    
+}
+.portfolio-flex-container-2 img{
+    width: 400px;
+    height: 400px;
 }
 
 /* Styles for subscribe section */
@@ -447,7 +457,7 @@ button {
     /* padding-top: 22px; */
 }
 
-.subscribe-input-container{
+.subscribe-input-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -473,7 +483,7 @@ button {
 
 .btn-subscribe button {
     max-width: 16%;
-    height:83px;
+    height: 83px;
     margin: 48px auto;
     padding: 24px auto;
     border-radius: 0px 50px 50px 0px;
