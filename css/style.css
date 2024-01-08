@@ -364,24 +364,36 @@ button {
     /* max-width: 95%; */
     margin: 72px auto;
     position: relative;
+    
 }
-.holiday-sale-box .botom-rect img{
+.holiday-sale-box-container{
+    /* background-color: blue; */
     max-width: 100%;
-    margin-top: 440px;
+    margin: 72px auto;
+
+}
+.holiday-sale-box-container .botom-rect img{
+     height: 230px;
+     width: 100%;
+    padding-top: 460px;
+
+     
     
 }
 .holiday-sale-girl-pic img {
     position: absolute;
-    top: 8px;
-    left: 815px;
+    top: 33px;
+    left: 1232px;
     width: 430;
     height: 433;
     border-radius: 16px 16px 0px 0px;
+    border-radius: 16px 16px 0px 0px;
+    background: lightgray -59.98px 0px / 151.553% 100% no-repeat;
 }
 .holiday-sale-girl-percent img {
     position: absolute;
     top: 180px;
-    left: 715px;
+    left: 1135px;
     width: 206px;
     height: 206px;
     /* text-align: center; */
@@ -405,7 +417,7 @@ button {
 
 /* styles for awsome portfolio */
 .awsome-portfolio-section {
-    height: 482px;
+    height: 692px;
     max-width: 88%;
     margin: 50px auto;
 }
@@ -422,6 +434,7 @@ button {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
+    padding-top: 48px;
 
 }
 
@@ -446,28 +459,36 @@ button {
 
 .portfolio-parent-container {
     height: 900px;
-    max-width: 95%;
-    margin: 72px auto;
+    max-width: 92%;
+    margin: 82px auto;
+    /* background-color: #070211; */
+    
 }
 
 .portfolio-flex-container-1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
     margin-bottom: 24px;
+    width: 100%;
 }
 .portfolio-flex-container-1 img{
-    width: 400px;
-    height: 400px;
+    width: 530px;
+    height: 500px;
 }
 
 .portfolio-flex-container-2 {
     display: flex;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 .portfolio-flex-container-2 img{
-    width: 400px;
-    height: 400px;
+    width: 530px;
+    height: 500px;
 }
 
 /* Styles for subscribe section */
@@ -549,7 +570,7 @@ button {
     font-weight: 600;
     position: absolute;
     top: 395px;
-    left: 808px;
+    left: 998px;
     border: 0px;
     text-align: left;
 }
