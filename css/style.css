@@ -19,11 +19,11 @@ header {
     border-radius: 16px;
     /* background-color: red;
     border: 2px solid black; */
-    height: 750px;
+    height: 600px;
     /* margin: 50px 140px; */
     position: relative;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     
 }
@@ -34,7 +34,7 @@ header {
 
 .banner-content {
     position: absolute;
-    top: 35%;
+    top: 25%;
     width: 100%;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -57,7 +57,7 @@ header {
 }
 
 .one h1 {
-    font-size: 92px;
+    font-size: 72px;
     font-weight: 900;
     color: #FFF;
     line-height: 95px;
@@ -135,8 +135,8 @@ header {
 }
 .join-now-2024-pic{
     position: absolute;
-    left: 1140px;
-    top: 88px;
+    left: 860px;
+    top: 60px;
 
 }
 
@@ -383,7 +383,7 @@ button {
 .holiday-sale-girl-pic img {
     position: absolute;
     top: 33px;
-    left: 1232px;
+    left: 818px;
     width: 430;
     height: 433;
     border-radius: 16px 16px 0px 0px;
@@ -393,17 +393,17 @@ button {
 .holiday-sale-girl-percent img {
     position: absolute;
     top: 180px;
-    left: 1135px;
+    left: 718px;
     width: 206px;
     height: 206px;
     /* text-align: center; */
 }
 .holiday-sale-girl-surprize img{
     position: absolute;
-    top: 185px;
+    top: 229px;
     left: 120px;
-    width: 485px;
-    height: 418px;
+    width: 400px;
+    height: 400px;
     box-shadow: #070211;
 }
 .holiday-sale-box img .bottom {
@@ -459,7 +459,7 @@ button {
 
 .portfolio-parent-container {
     height: 900px;
-    max-width: 92%;
+    max-width: 85%;
     margin: 82px auto;
     /* background-color: #070211; */
     
@@ -474,8 +474,8 @@ button {
     width: 100%;
 }
 .portfolio-flex-container-1 img{
-    width: 530px;
-    height: 500px;
+    width: 420px;
+    height: 440px;
 }
 
 .portfolio-flex-container-2 {
@@ -487,8 +487,8 @@ button {
     
 }
 .portfolio-flex-container-2 img{
-    width: 530px;
-    height: 500px;
+    width: 420px;
+    height: 440px;
 }
 
 /* Styles for subscribe section */
@@ -548,7 +548,7 @@ button {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    padding: 15px 400px 0px 38px;
+    padding: 15px 400px 10px 38px;
     border: 0px;
     text-align: left;
     margin-top: 0px;
@@ -558,9 +558,10 @@ button {
 
 .btn-subscribe button {
     max-width: 16%;
-    height: 83px;
+    height: 90px;
     margin: 48px auto;
-    padding: 24px auto;
+    padding: 35px auto;
+    padding-bottom: 10px;
     border-radius: 0px 50px 50px 0px;
     background: #df0d0def;
     color: #FFF;
@@ -569,10 +570,14 @@ button {
     font-size: 20px;
     font-weight: 600;
     position: absolute;
-    top: 395px;
-    left: 998px;
+    top: 396px;
+    left: 828px;
     border: 0px;
     text-align: left;
+    -webkit-border-radius: 0px 50px 50px 0px;
+    -moz-border-radius: 0px 50px 50px 0px;
+    -ms-border-radius: 0px 50px 50px 0px;
+    -o-border-radius: 0px 50px 50px 0px;
 }
 
 /* Style for footer */
