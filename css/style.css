@@ -213,7 +213,6 @@ button {
 .best-offer-container {
     display: flex;
     gap: 70px;
-    padding: 35px 0px;
     align-items: center;
     justify-content: center;
 }
@@ -244,18 +243,34 @@ button {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    max-width: 85%;
 }
 
+.offer-pics{
+    /* background-image: url('../resources/Ellipse\ 1.png'); */
+    background-color: red;
+    padding: 10px;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85%; */
+    /*border: 5px solid red;
+    */
+    border-radius: 80%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    margin-left: 0px;
+}
 .offer-pics .inner-pic img {
-    height: 360px;
-    width: 360px;
-    border: 10px solid red;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    box-shadow: brown;
+    height: 291px;
+    width: 291px;
+    border: 25px solid white;
+    border-radius: 364px;
+    -webkit-border-radius: 364px;
+    -moz-border-radius: 364px;
+    -ms-border-radius: 364px;
+    -o-border-radius: 364px;
 }
 
 
