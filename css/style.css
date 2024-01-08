@@ -408,74 +408,86 @@ button {
 
 /* Styles for subscribe section */
 .subscribe-section {
-    height: 682px;
+    height: 616px;
     max-width: 82%;
-    margin: 70px auto;
-    margin-top: 820px;
+    margin: 82px auto;
+    margin-top: 750px;
     text-align: center;
     border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
+    background: #ff00000d;
     position: relative;
-
-
-
 }
 
 .subscribe-section img {
-    padding-top: 80px;
+    /* padding-top: 80px; */
+    width: 150px;
+    height: 150px;
+    margin: 80px 250px 40px;
 }
 
 .subscribe-title {
     color: #070211;
-
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
-
     font-weight: 900;
-
     text-transform: capitalize;
-    padding-top: 40px;
+    /* padding-top: 40px; */
+    margin-bottom: 22px;
 }
 
 .subscribe-title-description {
-    color: rgba(7, 2, 17, 0.60);
-    max-width: 70%;
+    color: #07021199;
+    max-width: 65%;
     margin: 22px auto;
-
-
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
-
     font-weight: 400;
     line-height: 32px;
-    padding-top: 22px;
+    /* padding-top: 22px; */
 }
 
-.mail {
+.subscribe-input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mail input {
+    max-width: 35%;
+    height: 72px;
+    margin: 48px auto;
     border-radius: 50px;
     background: #FFF;
-    padding: 25px 477px 40px 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 400px 0px 38px;
     border: 0px;
-    padding-top: 48px;
+    text-align: left;
+    margin-top: 0px;
+    /* padding-top: 48px; */
+    position: relative;
 }
 
-button {
+.btn-subscribe button {
+    max-width: 16%;
+    height:83px;
+    margin: 48px auto;
+    padding: 24px auto;
     border-radius: 0px 50px 50px 0px;
-    background: #F00;
+    background: #df0d0def;
     color: #FFF;
-
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
-
     font-weight: 600;
-    width: 210px;
     position: absolute;
-    top: 68%;
-    right: 140px;
-    bottom: 111px;
-
+    top: 395px;
+    left: 808px;
+    border: 0px;
+    text-align: left;
 }
 
 /* Style for footer */
