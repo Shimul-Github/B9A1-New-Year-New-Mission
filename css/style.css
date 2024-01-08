@@ -31,6 +31,7 @@ header {
     top: 25%;
     width: 100%;
     text-align: center;
+    font-family: 'Merriweather', serif;
 
 }
 
@@ -65,6 +66,8 @@ header {
     border: 2px solid black; */
     height: 600px;
     text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 240px;
 
 }
 
@@ -72,14 +75,13 @@ header {
     color: #F00;
     font-size: 88px;
     font-weight: 700;
-    font-family: 'Inter', sans-serif;
     margin-bottom: 48px;
 }
 
 .dicount-info {
     font-size: 24px;
     font-weight: 500;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
     color: #F00;
     margin-bottom: 16px;
 }
@@ -87,9 +89,9 @@ header {
 .dicount-info-1 {
     font-size: 48px;
     font-weight: 700;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
     color: #070211;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
     margin-bottom: 48px;
 }
 
@@ -98,7 +100,56 @@ header {
     /* margin: 30px auto; */
     position: center;
     fill: lightgray 50%;
-    padding: 30px 0px 120px;
+    margin: 30px 0px 120px;
 }
 
 /* Styles for join now */
+
+.join-now-section {
+    height: 600px;
+    max-width: 82%;
+    margin: 70px auto;
+    /* background-color: red;
+    border: 2px solid black; */
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+}
+.join-now-content{
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    top: 140px;
+    left: 100px;
+    max-width: 49%;
+
+}
+.join-now-title{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+.join-now-title-info{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffffcc;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 48px;
+}
+.join-now{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-left: 18px;
+    color: #FFF;
+
+}
